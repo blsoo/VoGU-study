@@ -1,0 +1,28 @@
+name: Reconstruct DOCX reports
+on:
+  push:
+    paths:
+      - '.report-payload/UPLOAD_READY'
+permissions:
+  contents: write
+jobs:
+  reconstruct:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconstruct reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          base='Информатика и основы программирования/Лабораторные работы'
+          for n in 3 4 5; do
+            mkdir -p "$base/ЛР$n/report"
+            cat .report-payload/lab$n/part-* | base64 -d > "$base/ЛР$n/report/Лабораторная_№${n}_вариант_8.docx"
+          done
+          rm -rf .report-payload
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Add verified DOCX lab reports'
+          git push
