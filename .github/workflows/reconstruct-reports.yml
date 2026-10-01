@@ -15,14 +15,18 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          mkdir -p /tmp/vogu-reports
+          cat .report-payload/archive/part-* | base64 -d > /tmp/vogu-reports/reports.tar.xz
+          xz -d /tmp/vogu-reports/reports.tar.xz
+          tar -xf /tmp/vogu-reports/reports.tar -C /tmp/vogu-reports
           base='Информатика и основы программирования/Лабораторные работы'
-          for n in 3 4 5; do
+          for n in 1 2 3 4 5; do
             mkdir -p "$base/ЛР$n/report"
-            cat .report-payload/lab$n/part-* | base64 -d > "$base/ЛР$n/report/Лабораторная_№${n}_вариант_8.docx"
+            cp "/tmp/vogu-reports/Лабораторная_№${n}_вариант_8.docx" "$base/ЛР$n/report/Лабораторная_№${n}_вариант_8.docx"
           done
           rm -rf .report-payload
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
-          git commit -m 'Add verified DOCX lab reports'
+          git commit -m 'Add verified final DOCX lab reports'
           git push
