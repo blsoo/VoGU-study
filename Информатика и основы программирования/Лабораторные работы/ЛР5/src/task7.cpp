@@ -9,11 +9,13 @@ int main() {
     int a[MAX][MAX];
     int n, m;
 
+    // Ограничиваем размеры вместимостью используемой матрицы 10x10.
     do {
         cout << "Enter n and m (1..10): ";
         cin >> n >> m;
     } while (n < 1 || n > MAX || m < 1 || m > MAX);
 
+    // Формируем исходную матрицу числами от -50 до 50.
     srand(static_cast<unsigned>(time(0)));
     cout << "Input matrix:" << endl;
     for (int i = 0; i < n; i++) {
@@ -24,7 +26,8 @@ int main() {
         cout << endl;
     }
 
-    // Bubble-sort rows by the last column in ascending order.
+    // Сортируем строки пузырьковым методом по последнему столбцу по возрастанию.
+    // При обмене меняем местами всю строку, а не только последний элемент.
     for (int pass = 0; pass < n - 1; pass++) {
         for (int i = 0; i < n - 1 - pass; i++) {
             if (a[i][m - 1] > a[i + 1][m - 1]) {
@@ -37,6 +40,7 @@ int main() {
         }
     }
 
+    // Выводим преобразованную матрицу.
     cout << "Sorted matrix:" << endl;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++)

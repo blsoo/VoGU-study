@@ -5,10 +5,11 @@ using namespace std;
 
 int main() {
     const int MAX_N = 20;
-    const int CAPACITY = 2 * MAX_N;
+    const int CAPACITY = 2 * MAX_N; // В худшем случае вставка нужна после всех 20 элементов.
     int a[CAPACITY];
     int n, x;
 
+    // Проверяем допустимый исходный размер массива.
     do {
         cout << "Enter n (1..20): ";
         cin >> n;
@@ -17,6 +18,8 @@ int main() {
     cout << "Enter the number to insert: ";
     cin >> x;
 
+    // В условии диапазон случайных значений не задан,
+    // поэтому используем диапазон [-10; 10].
     srand(static_cast<unsigned>(time(0)));
     cout << "Input array: ";
     for (int i = 0; i < n; i++) {
@@ -25,6 +28,8 @@ int main() {
     }
     cout << endl;
 
+    // Просматриваем исходные элементы. После элемента, кратного 3,
+    // сдвигаем хвост вправо и вставляем x без дополнительного массива.
     int i = 0;
     while (i < n) {
         if (a[i] % 3 == 0) {
@@ -32,12 +37,13 @@ int main() {
                 a[j] = a[j - 1];
             a[i + 1] = x;
             n++;
-            i += 2; // Skip the inserted element so it is not processed again.
+            i += 2; // Пропускаем вставленный элемент и переходим к следующему исходному.
         } else {
             i++;
         }
     }
 
+    // Выводим преобразованный массив.
     cout << "Output array: ";
     for (int k = 0; k < n; k++)
         cout << a[k] << " ";
