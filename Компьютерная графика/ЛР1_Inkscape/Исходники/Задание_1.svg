@@ -1,39 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
-<rect width="1000" height="700" fill="white"/>
-<text x="40" y="45" font-family="Times New Roman" font-size="28" font-weight="bold">Задание 1. Создание и работа с документами в Inkscape</text>
-<g fill="#2d36ff" stroke="#111" stroke-width="3">
-  <rect x="55" y="90" width="50" height="70"/><rect x="135" y="80" width="60" height="55"/>
-  <rect x="225" y="65" width="160" height="120"/><rect x="335" y="75" width="110" height="65"/>
-  <rect x="385" y="105" width="105" height="65"/><rect x="455" y="110" width="90" height="80"/>
-  <rect x="540" y="80" width="75" height="95"/><rect x="690" y="145" width="25" height="14"/>
-  <rect x="750" y="120" width="14" height="12"/><rect x="800" y="95" width="10" height="9"/>
-</g>
-<g fill="#ff4545" stroke="#333" stroke-width="3">
-  <ellipse cx="80" cy="280" rx="35" ry="18"/><circle cx="140" cy="260" r="55"/>
-  <ellipse cx="110" cy="330" rx="18" ry="45"/><ellipse cx="180" cy="330" rx="55" ry="20"/>
-</g>
-<g fill="#fff12f" stroke="#555" stroke-width="3">
-  <path d="M310 220l15 35 37 3-28 25 8 36-32-19-32 19 8-36-28-25 37-3z"/>
-  <path d="M380 237l13 31 33 2-25 22 7 32-28-17-28 17 8-32-26-22 33-2z"/>
-  <path d="M445 235l11 25 27 3-21 18 7 26-24-14-23 14 6-26-21-18 28-3z"/>
-  <path d="M510 258l7 17 19 2-14 12 4 18-16-10-16 10 4-18-14-12 19-2z"/>
-</g>
-<g fill="none" stroke="#555" stroke-width="4">
-  <path d="M610 285c30-35 58 20 25 42-43 28-84-29-50-68 45-51 116 2 91 62"/>
-  <path d="M690 285c25-28 50 15 24 35-35 27-77-11-59-50 24-51 96-39 111 13 18 62-45 103-95 72"/>
-  <path d="M785 285c20-25 46 4 31 29-25 42-83 21-86-26-5-67 70-100 121-57 65 55 25 156-56 161"/>
-</g>
-<g transform="translate(90 430)">
-  <rect x="0" y="40" width="110" height="100" fill="#3344ff" stroke="#222" stroke-width="3"/>
-  <ellipse cx="110" cy="35" rx="55" ry="45" fill="#ff4040" stroke="#222" stroke-width="3"/>
-  <path d="M230 25l19 44 48 4-37 32 11 47-41-25-41 25 11-47-37-32 48-4z" fill="#fff23d" stroke="#222" stroke-width="3"/>
-</g>
-<g stroke="#222" stroke-width="3">
-  <ellipse cx="500" cy="510" rx="55" ry="38" fill="#aaa08b"/><ellipse cx="563" cy="510" rx="55" ry="38" fill="#e7cfc4"/>
-  <ellipse cx="626" cy="510" rx="55" ry="38" fill="#18bfa6"/><ellipse cx="689" cy="510" rx="55" ry="38" fill="#f5e51f"/>
-  <ellipse cx="752" cy="510" rx="55" ry="38" fill="#4b18c6"/><ellipse cx="815" cy="510" rx="55" ry="38" fill="#72ca4d"/>
-  <ellipse cx="878" cy="510" rx="55" ry="38" fill="#f03f83"/>
-</g>
-<path d="M620 565l15 35 37 3-28 25 8 37-32-20-32 20 8-37-28-25 37-3z" fill="#ff8a00"/>
-<circle cx="655" cy="635" r="42" fill="#f51929"/><rect x="675" y="625" width="80" height="80" fill="#2540ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1650" viewBox="0 0 1200 1650">
+<defs>
+<linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#11a0c0"/><stop offset="1" stop-color="#11a0c0" stop-opacity="0"/></linearGradient>
+<radialGradient id="grad2"><stop offset="0" stop-color="#a8c47b"/><stop offset="1" stop-color="#80745f" stop-opacity="0.5"/></radialGradient>
+<radialGradient id="grad3"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff" stop-opacity="0.1"/></radialGradient>
+<linearGradient id="strokegrad" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#79a7b1"/></linearGradient>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="52" font-family="Times New Roman" font-size="34" font-weight="bold">Задание 1. Создание и работа с документами в Inkscape</text>
+<text x="45" y="100" font-family="Times New Roman" font-size="24" font-weight="bold">1. Прямоугольники, овалы, звезды и спирали</text>
+<rect x="70" y="130" width="55" height="70" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="150" y="120" width="65" height="55" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="250" y="105" width="170" height="120" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="370" y="115" width="110" height="65" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="420" y="145" width="100" height="65" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="490" y="150" width="90" height="80" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="580" y="120" width="75" height="95" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="740" y="175" width="26" height="14" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="800" y="150" width="14" height="12" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<rect x="850" y="125" width="10" height="9" fill="#3d43ff" stroke="#111" stroke-width="3"/>
+<ellipse cx="100" cy="320" rx="35" ry="18" fill="#ff4848" stroke="#222" stroke-width="3"/>
+<ellipse cx="165" cy="300" rx="55" ry="55" fill="#ff4848" stroke="#222" stroke-width="3"/>
+<ellipse cx="125" cy="350" rx="18" ry="45" fill="#ff4848" stroke="#222" stroke-width="3"/>
+<ellipse cx="210" cy="350" rx="55" ry="20" fill="#ff4848" stroke="#222" stroke-width="3"/>
+<polygon points="360.0,265.0 374.5,300.0 412.3,303.0 383.5,327.6 392.3,364.5 360.0,344.8 327.7,364.5 336.5,327.6 307.7,303.0 345.5,300.0" fill="#fff11f" stroke="#333" stroke-width="3"/>
+<polygon points="430.0,282.0 442.7,312.5 475.7,315.2 450.5,336.7 458.2,368.8 430.0,351.6 401.8,368.8 409.5,336.7 384.3,315.2 417.3,312.5" fill="#fff11f" stroke="#333" stroke-width="3"/>
+<polygon points="495.0,280.0 505.6,305.4 533.0,307.6 512.1,325.6 518.5,352.4 495.0,338.0 471.5,352.4 477.9,325.6 457.0,307.6 484.4,305.4" fill="#fff11f" stroke="#333" stroke-width="3"/>
+<polygon points="555.0,303.0 562.1,320.2 580.7,321.7 566.6,333.8 570.9,351.8 555.0,342.1 539.1,351.8 543.4,333.8 529.3,321.7 547.9,320.2" fill="#fff11f" stroke="#333" stroke-width="3"/>
+<path d="M 685.0,330.0 C 680,280 735,260 760,320 C 785,380 715,400 680,355 C 650,315 690,275 725,305" fill="none" stroke="#444" stroke-width="4"/>
+<path d="M 755.0,330.0 C 750,275 815,255 845,325 C 870,385 800,415 755,370 C 710,325 750,265 805,300" fill="none" stroke="#444" stroke-width="4"/>
+<path d="M 850.0,330.0 C 845,265 925,245 955,330 C 980,405 890,440 835,380 C 780,320 835,245 900,290" fill="none" stroke="#444" stroke-width="4"/>
+<text x="45" y="450" font-family="Times New Roman" font-size="24" font-weight="bold">2. Группировка и дублирование (Ctrl+G, Ctrl+D)</text>
+<g transform="translate(70,480)"><rect x="0" y="50" width="100" height="95" fill="#3344ff" stroke="#222" stroke-width="3"/><ellipse cx="100" cy="40" rx="55" ry="42" fill="#ff4040" stroke="#222" stroke-width="3"/><polygon points="220.0,35.0 237.6,75.7 281.8,79.9 248.5,109.3 258.2,152.6 220.0,130.0 181.8,152.6 191.5,109.3 158.2,79.9 202.4,75.7" fill="#fff23d" stroke="#222" stroke-width="3"/></g>
+<ellipse cx="430" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<ellipse cx="535" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<ellipse cx="640" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<ellipse cx="745" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<ellipse cx="850" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<ellipse cx="955" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<ellipse cx="1060" cy="555" rx="62" ry="38" fill="#e60000" stroke="#111" stroke-width="3"/>
+<text x="425" y="625" font-family="Times New Roman" font-size="19">исходный объект + 6 копий</text>
+<text x="45" y="690" font-family="Times New Roman" font-size="24" font-weight="bold">3. Заливка, обводка и стиль обводки</text>
+<ellipse cx="115" cy="760" rx="70" ry="42" fill="#aaa08b" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="240" cy="760" rx="70" ry="42" fill="#e7cfc4" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="365" cy="760" rx="70" ry="42" fill="#18bfa6" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="490" cy="760" rx="70" ry="42" fill="#f5e51f" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="615" cy="760" rx="70" ry="42" fill="#4b18c6" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="740" cy="760" rx="70" ry="42" fill="#72ca4d" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="865" cy="760" rx="70" ry="42" fill="#f03f83" fill-opacity="0.88" stroke="#222" stroke-width="3"/>
+<ellipse cx="115" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#000" stroke-width="4"/>
+<ellipse cx="240" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#777" stroke-width="4"/>
+<ellipse cx="365" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#ff3030" stroke-width="4"/>
+<ellipse cx="490" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#30ef92" stroke-width="4"/>
+<ellipse cx="615" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#325887" stroke-width="4"/>
+<ellipse cx="740" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#86752d" stroke-width="4"/>
+<ellipse cx="865" cy="860" rx="70" ry="42" fill="#e0e0e0" stroke="#999" stroke-width="4"/>
+<ellipse cx="115" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="2"/>
+<ellipse cx="240" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="5"/>
+<ellipse cx="365" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="11"/>
+<ellipse cx="490" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="4" stroke-dasharray="12 9"/>
+<ellipse cx="615" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="4" stroke-dasharray="22 10"/>
+<ellipse cx="740" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="4" stroke-dasharray="18 5 4 5"/>
+<ellipse cx="865" cy="960" rx="70" ry="42" fill="#e0e0e0" stroke="#111" stroke-width="2" stroke-dasharray="2 4"/>
+<text x="45" y="1050" font-family="Times New Roman" font-size="24" font-weight="bold">4. Градиенты</text>
+<ellipse cx="155" cy="1125" rx="100" ry="58" fill="url(#grad1)"/>
+<ellipse cx="350" cy="1125" rx="100" ry="58" fill="url(#grad2)"/>
+<ellipse cx="545" cy="1125" rx="100" ry="58" fill="url(#grad3)"/>
+<ellipse cx="740" cy="1125" rx="100" ry="58" fill="#f6eefb" stroke="url(#strokegrad)" stroke-width="10"/>
+<text x="45" y="1225" font-family="Times New Roman" font-size="24" font-weight="bold">5. Логические операции с контурами</text>
+<circle cx="140" cy="1325" r="65" fill="#238f8b"/><polygon points="180.0,1300.0 194.7,1334.8 232.3,1338.0 203.8,1362.7 212.3,1399.5 180.0,1380.0 147.7,1399.5 156.2,1362.7 127.7,1338.0 165.3,1334.8" fill="#ff8585"/>
+<text x="75" y="1410" font-size="18" font-family="Times New Roman">исходные объекты</text>
+<path d="M330 1260a65 65 0 1 0 70 110 l50 15 -28 40 -45 -22 a65 65 0 0 0 -47 -143z" fill="#238f8b"/>
+<text x="335" y="1410" font-size="18" font-family="Times New Roman">сумма</text>
+<path d="M590 1340 q35 -25 55 -55 q20 42 5 75 q-25 28 -60 35 q15 -20 0 -55z" fill="#238f8b"/>
+<text x="565" y="1410" font-size="18" font-family="Times New Roman">пересечение</text>
+<circle cx="820" cy="1325" r="65" fill="#238f8b"/><polygon points="860.0,1300.0 874.7,1334.8 912.3,1338.0 883.8,1362.7 892.3,1399.5 860.0,1380.0 827.7,1399.5 836.2,1362.7 807.7,1338.0 845.3,1334.8" fill="#238f8b"/><path d="M820 1325 l42 -22 -10 44z" fill="white"/>
+<text x="775" y="1410" font-size="18" font-family="Times New Roman">исключающее ИЛИ</text>
+<text x="45" y="1485" font-family="Times New Roman" font-size="24" font-weight="bold">6. Порядок объектов по оси Z</text>
+<polygon points="200.0,1495.0 217.6,1535.7 261.8,1539.9 228.5,1569.3 238.2,1612.6 200.0,1590.0 161.8,1612.6 171.5,1569.3 138.2,1539.9 182.4,1535.7" fill="#ff8a00"/><circle cx="245" cy="1580" r="48" fill="#f51929"/><rect x="265" y="1570" width="90" height="80" fill="#2540ff"/>
+<circle cx="705" cy="1580" r="48" fill="#f51929"/><rect x="725" y="1570" width="90" height="80" fill="#2540ff"/><polygon points="660.0,1495.0 677.6,1535.7 721.8,1539.9 688.5,1569.3 698.2,1612.6 660.0,1590.0 621.8,1612.6 631.5,1569.3 598.2,1539.9 642.4,1535.7" fill="#ff8a00"/>
 </svg>
