@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+<rect width="1000" height="700" fill="white"/>
+<text x="40" y="45" font-family="Times New Roman" font-size="28" font-weight="bold">Задание 1. Создание и работа с документами в Inkscape</text>
+<g fill="#2d36ff" stroke="#111" stroke-width="3">
+  <rect x="55" y="90" width="50" height="70"/><rect x="135" y="80" width="60" height="55"/>
+  <rect x="225" y="65" width="160" height="120"/><rect x="335" y="75" width="110" height="65"/>
+  <rect x="385" y="105" width="105" height="65"/><rect x="455" y="110" width="90" height="80"/>
+  <rect x="540" y="80" width="75" height="95"/><rect x="690" y="145" width="25" height="14"/>
+  <rect x="750" y="120" width="14" height="12"/><rect x="800" y="95" width="10" height="9"/>
+</g>
+<g fill="#ff4545" stroke="#333" stroke-width="3">
+  <ellipse cx="80" cy="280" rx="35" ry="18"/><circle cx="140" cy="260" r="55"/>
+  <ellipse cx="110" cy="330" rx="18" ry="45"/><ellipse cx="180" cy="330" rx="55" ry="20"/>
+</g>
+<g fill="#fff12f" stroke="#555" stroke-width="3">
+  <path d="M310 220l15 35 37 3-28 25 8 36-32-19-32 19 8-36-28-25 37-3z"/>
+  <path d="M380 237l13 31 33 2-25 22 7 32-28-17-28 17 8-32-26-22 33-2z"/>
+  <path d="M445 235l11 25 27 3-21 18 7 26-24-14-23 14 6-26-21-18 28-3z"/>
+  <path d="M510 258l7 17 19 2-14 12 4 18-16-10-16 10 4-18-14-12 19-2z"/>
+</g>
+<g fill="none" stroke="#555" stroke-width="4">
+  <path d="M610 285c30-35 58 20 25 42-43 28-84-29-50-68 45-51 116 2 91 62"/>
+  <path d="M690 285c25-28 50 15 24 35-35 27-77-11-59-50 24-51 96-39 111 13 18 62-45 103-95 72"/>
+  <path d="M785 285c20-25 46 4 31 29-25 42-83 21-86-26-5-67 70-100 121-57 65 55 25 156-56 161"/>
+</g>
+<g transform="translate(90 430)">
+  <rect x="0" y="40" width="110" height="100" fill="#3344ff" stroke="#222" stroke-width="3"/>
+  <ellipse cx="110" cy="35" rx="55" ry="45" fill="#ff4040" stroke="#222" stroke-width="3"/>
+  <path d="M230 25l19 44 48 4-37 32 11 47-41-25-41 25 11-47-37-32 48-4z" fill="#fff23d" stroke="#222" stroke-width="3"/>
+</g>
+<g stroke="#222" stroke-width="3">
+  <ellipse cx="500" cy="510" rx="55" ry="38" fill="#aaa08b"/><ellipse cx="563" cy="510" rx="55" ry="38" fill="#e7cfc4"/>
+  <ellipse cx="626" cy="510" rx="55" ry="38" fill="#18bfa6"/><ellipse cx="689" cy="510" rx="55" ry="38" fill="#f5e51f"/>
+  <ellipse cx="752" cy="510" rx="55" ry="38" fill="#4b18c6"/><ellipse cx="815" cy="510" rx="55" ry="38" fill="#72ca4d"/>
+  <ellipse cx="878" cy="510" rx="55" ry="38" fill="#f03f83"/>
+</g>
+<path d="M620 565l15 35 37 3-28 25 8 37-32-20-32 20 8-37-28-25 37-3z" fill="#ff8a00"/>
+<circle cx="655" cy="635" r="42" fill="#f51929"/><rect x="675" y="625" width="80" height="80" fill="#2540ff"/>
+</svg>
