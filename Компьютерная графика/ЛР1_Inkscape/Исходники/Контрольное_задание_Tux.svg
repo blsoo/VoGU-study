@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="50" font-size="30" font-family="serif" font-weight="bold">Контрольное задание. Пингвин Tux</text>
+<ellipse cx="500" cy="635" rx="190" ry="30" fill="#777" opacity="0.3"/>
+<ellipse cx="500" cy="365" rx="175" ry="245" fill="#111"/>
+<ellipse cx="500" cy="410" rx="125" ry="180" fill="#f6f6f6"/>
+<ellipse cx="445" cy="200" rx="72" ry="78" fill="#111"/><ellipse cx="555" cy="200" rx="72" ry="78" fill="#111"/>
+<ellipse cx="466" cy="205" rx="45" ry="52" fill="white"/><ellipse cx="534" cy="205" rx="45" ry="52" fill="white"/>
+<circle cx="480" cy="215" r="13" fill="#111"/><circle cx="520" cy="215" r="13" fill="#111"/>
+<polygon points="500,245 430,290 570,290" fill="#f2c429" stroke="#a87500" stroke-width="3"/>
+<path d="M340 330 Q260 420 305 520 Q355 475 385 390 Z" fill="#111"/>
+<path d="M660 330 Q740 420 695 520 Q645 475 615 390 Z" fill="#111"/>
+<ellipse cx="400" cy="585" rx="110" ry="52" fill="#f2c429" transform="rotate(-12 400 585)" stroke="#a87500" stroke-width="3"/>
+<ellipse cx="600" cy="585" rx="110" ry="52" fill="#f2c429" transform="rotate(12 600 585)" stroke="#a87500" stroke-width="3"/>
+</svg>
