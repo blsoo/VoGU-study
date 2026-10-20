@@ -1,19 +1,21 @@
 # Компьютерная графика
 
+## Актуальный комплект после полной переделки (21.10.2026)
+
+**[Скачать новый архив ЛР1 + ЛР2 (SVG, PNG/JPG, ORA, DOCX, методички)](https://drive.google.com/file/d/1jdcrRPTt4jHR231HblogYmSY6p2Bs86_/view?usp=drivesdk)**
+
+Отдельные финальные отчёты:
+
+- [ЛР1 — переделанный DOCX](https://docs.google.com/document/d/10L30984FSG0VEjHXj-uRNX8orKWRE9YP/edit)
+- [ЛР2 — переделанный DOCX](https://docs.google.com/document/d/1DDbTMtFa6jU0TQtJVc8SmvoGuIIukn9U/edit)
+
+[Все Word-файлы и полный архив в папке Google Drive](https://drive.google.com/drive/folders/1N8RkE0ONry47HvlTrNXmQxu2MGS-POx5)
+
+**Примечание о доступе:** папка Google Drive может требовать входа, пока владелец не включит «Все, у кого есть ссылка → Читатель». 
+Архив содержит пересобранные оригинальные SVG и многослойные ORA. Нативных проектов XCF нет.
+
+
 Повторно проверенный комплект лабораторных работ по методическим материалам ВоГУ.
-
-## Скачать готовые DOCX с Google Drive
-
-Все Word-файлы собраны в отдельной папке:
-
-**Google Drive:** https://drive.google.com/drive/folders/1N8RkE0ONry47HvlTrNXmQxu2MGS-POx5
-
-В папке:
-- `Отчет_ЛР1_Компьютерная_графика.docx`
-- `Отчет_ЛР2_Компьютерная_графика.docx`
-- `ЛР-2 (1).docx`
-- `Лабораторная работа 1 Inkscape (4).docx`
-- `шаблон отчета (1).docx`
 
 ## Структура
 
